@@ -5,14 +5,17 @@
 
 ## Результаты на test
 
-В [Excel](test_results.xlsx) — 139 ответов. Средние по строкам отчёта:
+В [Excel](test_results.xlsx) — 141 ответ. Средние по строкам отчёта:
 
 | Метрика | Значение |
 | --- | ---: |
-| context_recall | 0.783094 |
-| context_precision | 0.221671 |
-| answer_correctness | 0.805755 |
-| time | 10.880145 с |
+| context_recall | 0.783806 |
+| context_precision | 0.222073 |
+| answer_correctness | 0.808511 |
+| time | 10.926245 с |
+
+Независимый повторный прогон на 141 вопросе: максимальное отклонение четырёх
+средних — 2,41% при допустимых 5%.
 
 [Эксперимент LangSmith: трассы и метрики](https://smith.langchain.com/public/0193f5e4-3e17-413a-823d-92acd0ebfac7/d).
 
